@@ -63,7 +63,7 @@ jobs:
 
             // 3. Gemini API 호출
             const model = "gemini-3-flash"; 
-            const url = `https://generativelanguage.googleapis.com/v1/models/${model}:generateContent`;
+            const url = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent`;
 
             try {
               const response = await fetch(url, {
